@@ -33,4 +33,8 @@ models:
   datawarehouse:
     # Config indicated by + and applies to all files under models/example/
     example:
+      +materialized: view    
+    staging:
       +materialized: view
+    datamart:
+      +materialized: table
