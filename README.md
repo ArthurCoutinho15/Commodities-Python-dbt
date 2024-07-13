@@ -103,6 +103,7 @@ SELECT * FROM public.dm_commodities;
 <ul>
     <li><code>dm_commodities.sql</code>: Modelo de data mart que junta os dados de commodities e movimentações, calculando valores e ganhos.</li>
 </ul>
+<img src='https://github.com/ArthurCoutinho15/Commodities-Python-dbt/blob/main/img/Captura%20de%20tela%202024-07-13%20162123.png'>
 <h2>Utilização do Streamlit</h2>
 <p>
     O Streamlit é utilizado para criar um dashboard interativo que mostra os dados das commodities e suas transações.
