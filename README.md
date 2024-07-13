@@ -103,6 +103,23 @@ SELECT * FROM public.dm_commodities;
 <ul>
     <li><code>dm_commodities.sql</code>: Modelo de data mart que junta os dados de commodities e movimentações, calculando valores e ganhos.</li>
 </ul>
+<h2>Utilização do Streamlit</h2>
+<p>
+    O Streamlit é utilizado para criar um dashboard interativo que mostra os dados das commodities e suas transações.
+</p>
+
+<h3>Execução do Streamlit</h3>
+<ol>
+    <li>Certifique-se de que o ambiente virtual está ativado.</li>
+    <li>Execute o comando para iniciar o Streamlit:
+        <pre>
+streamlit run script.py
+        </pre>
+        <p>Substitua <code>script.py</code> pelo nome do arquivo Python que contém o código acima.</p>
+    </li>
+    <li>Abra o navegador e acesse <a href="http://localhost:8501">http://localhost:8501</a> para visualizar o dashboard.</li>
+</ol>
+
 
 
 
