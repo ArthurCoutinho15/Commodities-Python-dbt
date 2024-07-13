@@ -4,25 +4,6 @@
     Este projeto tem como objetivo a criação de um data warehouse para análise de commodities usando dbt (data build tool) e MySQL. Ele inclui a extração de dados de preços de commodities e movimentações de commodities, transformação dos dados usando modelos dbt, e carregamento dos dados transformados em um banco de dados MySQL.
 </p>
 
-<h2>Estrutura do Projeto</h2>
-<pre>
-.
-├── datawarehouse/
-│   ├── models/
-│   │   ├── datamart/
-│   │   │   ├── dm_commodities.sql
-│   │   │   └── schema.yml
-│   │   ├── staging/
-│   │   │   ├── schema.yml
-│   │   │   ├── st_movimentacao_commodities.sql
-│   │   │   └── stg_commodities.sql
-│   ├── seeds/
-│   │   └── movimentacao_commodities.csv
-│   ├── dbt_project.yml
-├── .gitignore
-├── README.md
-└── requirements.txt
-</pre>
 
 <h2>Pré-requisitos</h2>
 <ul>
@@ -38,7 +19,7 @@
 <ol>
     <li>Clone o repositório:
         <pre>
-git clone &lt;URL_DO_REPOSITORIO&gt;
+git clone &lt;https://github.com/ArthurCoutinho15/Commodities-Python-dbt&gt;
 cd ETL-dbt
         </pre>
     </li>
@@ -67,8 +48,8 @@ datawarehouse:
       port: 3306
       database: commodities
       schema: public
-      username: arthur
-      password: Dezembro15
+      username: username
+      password: password
       driver: MySQL ODBC 8.0 ANSI Driver
         </pre>
     </li>
