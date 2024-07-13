@@ -120,6 +120,7 @@ streamlit run script.py
     </li>
     <li>Abra o navegador e acesse <a href="http://localhost:8501">http://localhost:8501</a> para visualizar o dashboard.</li>
 </ol>
+<img src='https://github.com/ArthurCoutinho15/Commodities-Python-dbt/blob/main/img/Captura%20de%20tela%202024-07-13%20121114.png'>
 
 
 
